@@ -5,6 +5,8 @@ import SignUp from './components/SignUp';
 import Home from './components/Home';
 import TicTacToe from './components/TicTacToe';
 import RockPaperScissors from './components/RockPaperScissors';
+import Game2048 from './components/Game2048';
+import MemoryMatch from './components/MemoryMatch';
 import ForgotPassword from './components/ForgotPassword';
 
 const App = () => {
@@ -16,6 +18,8 @@ const App = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/tictactoe" element={<TicTacToe />} />
         <Route path="/rockpaperscissors" element={<RockPaperScissors />} />
+        <Route path="/2048" element={<Game2048 />} />
+        <Route path="/memorymatch" element={<MemoryMatch />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/" element={<Login />} />
       </Routes>
